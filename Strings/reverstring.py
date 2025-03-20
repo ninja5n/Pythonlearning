@@ -1,0 +1,6 @@
+user_input = input("Enter a string: ")
+# user_input = user_input.split(" ")
+# print(user_input)
+user_input = list(user_input)
+user_input = "".join(i for i in user_input[::-1])
+print(user_input)
